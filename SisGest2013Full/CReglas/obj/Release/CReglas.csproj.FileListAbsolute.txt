@@ -1,0 +1,9 @@
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Release\CReglas.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Release\CReglas.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Release\CDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Release\CEntidades.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Release\CDatos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Release\CEntidades.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\obj\Release\CReglas.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\obj\Release\CReglas.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\obj\Release\CReglas.pdb

@@ -1,0 +1,48 @@
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll.config
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\CEntidades.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\CReglas.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\CDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\CEntidades.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\CReglas.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\bin\CDatos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.pdb
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll.config
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.pdb
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CEntidades.dll
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CReglas.dll
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CDatos.dll
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CEntidades.pdb
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CReglas.pdb
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CDatos.pdb
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.csprojResolveAssemblyReference.cache
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.dll
+\\PQE148705\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll.config
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CEntidades.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CReglas.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CDatos.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CEntidades.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CReglas.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\bin\CDatos.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.pdb
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll.config
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.dll
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\SisGest2013Full.pdb
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\CEntidades.dll
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\CReglas.dll
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\CDatos.dll
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\CEntidades.pdb
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\CReglas.pdb
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\bin\CDatos.pdb
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.dll
+C:\Users\Administrador\Desktop\SisGest2013Full\SisGest2013Full\obj\Debug\SisGest2013Full.pdb

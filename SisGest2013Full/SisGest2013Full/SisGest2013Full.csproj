@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F4E4983-5DE0-44F9-BD13-F0275BCFDEDE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisGest2013Full</RootNamespace>
+    <AssemblyName>SisGest2013Full</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administracion\MUsuario.aspx" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\css\bootstrap-theme.css.map" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\css\bootstrap.css.map" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="BotonesRedesSociales\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="BotonesRedesSociales\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="BotonesRedesSociales\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="BotonesRedesSociales\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="BotonesRedesSociales\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\animated.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\bordered-pulled.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\core.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\fixed-width.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\font-awesome.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\icons.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\larger.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\list.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\mixins.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\path.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\rotated-flipped.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\stacked.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\less\variables.less" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\font-awesome.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_animated.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_core.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_icons.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_larger.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_list.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_mixins.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_path.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_stacked.scss" />
+    <Content Include="BotonesRedesSociales\font-awesome\scss\_variables.scss" />
+    <Content Include="css\bootstrap-v3.3.5.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="CYC\ConsultarEcoADM.aspx" />
+    <Content Include="CYC\CrearEco.aspx" />
+    <Content Include="CYC\EditarEco.aspx" />
+    <Content Include="CYC\GCompra.aspx" />
+    <Content Include="CYC\GCompraAdm.aspx" />
+    <Content Include="CYC\inicioCYC.aspx" />
+    <Content Include="CYC\inicioCYCAdm.aspx" />
+    <Content Include="Data\Listados\Control_de_registro\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Caracterizacion\Caracterización_ACE.xlsm" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Formatos\Diagnóstico_F-8111-03A.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Indicadores\Empleos_Calificados.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Indicadores\Empresas_Formalizadas.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Indicadores\Presupuesto_Ejecutado.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Indicadores\Proyectos-Acompañados-Incub.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Indicadores\Proyectos-Acompañados-Pre.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Indicadores\Satisfacción_Usuario.xlsx" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Procedimientos\Procedimiento_comité_de_proyectos_P-8111-02A.docx" />
+    <Content Include="Data\Procesos\Comunicaciones\Caracterizacion\Caracterización_Comunicaciones.xls.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Agenda_académica_y_cultural_F-8111-06C.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Bitácora_F-8111-05C.docx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Check_List_integración_de_agentes_F-8111-04C.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Entrega_de_material_y_divulgación_F-8111-02C.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Evaluación_charla_de_orientación_F-8111-09C.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Evaluación_de_evento_F-8111-07C.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Lista_de_asistencia_F-8111-08C.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Reporte_de_empresa_en_punto_móvil_F-8111-11C.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Solicitud_F-8111-03C.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Formatos\Trazabilidad_puntos_móviles_F-8111-10C.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Indicadores\Cumplimiento-Plan.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Indicadores\Satisfacción_Usuario.xlsx" />
+    <Content Include="Data\Procesos\Comunicaciones\Indicadores\Servicios_Atendidos.xlsx" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Caracterizacion\Estrategias_Tecnologicas.xlsm" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Formatos\Lista_Chequeo_F-8111-01T.xlsx" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Idicadores\Satisfacción-Usuario.xlsx" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Idicadores\Tiempo_Funcionamiento.xlsx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Caracterizacion\Caracterización_IES.xlsm" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Carta_de_Presentación_Propuesta_F-8111-03Z.docx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Certificado_de_Contrapartida_F-8111-07Z.docx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Descripción_Equipo_Trabajo_IES_F-8111-05Z.docx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Evaluacion_de_iniciativas_F-8111-12Z.doc" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Presentación_de_la_Institución_F-8111-10Z.docx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Presupuesto_Fortalecimiento_F-8111-06Z.xlsm" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Registro_Apertura_Sobres_F-8111-02Z.xlsx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Formatos\Trazabilidad_Asistencia_F-8111-11Z.xlsx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Indicadores\Emprendedores_Formados_Entrenados.xlsx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Indicadores\Iniciativas_Puesta_Marcha.xlsx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Indicadores\Recursos_Contrapartidas.xlsx" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Procedimientos\Procedimiento_Fortalecimiento_IES_P-8111-01Z.docx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Caracterizacion\Gestión_Administrativa.xlsm" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Documentos_externos\Politica_Salud_Ocupacional_U_de_A.doc" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Formatos\Ajuste_al_perfil_F-8111-02H.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Indicadores\Actividades_Capacitación.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Indicadores\Calificación-Desempeño.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Indicadores\Satisfacción_del_Usuario.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Instructivos\Guia_Aplicativo_GTH G-8111-01H.docx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Documentos_externos\Resolución_Rectoral.doc" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Indicadores\Acciones_Planeadas.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Indicadores\Entregas-Completas.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Indicadores\Satisfacción_del_Usuario.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Procedimientos\Procedimiento_Control_de_Inventarios_P-8111-03S.docx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Acuerdo_Superior-095.doc" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolucion-20458.rtf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolucion-21039.rtf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-006-2014.pdf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-13843.pdf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-15063.docx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-17115.docx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-21000.doc" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-23743.rtf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Documentos_externos\Resolución-32303.pdf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Formatos\Acta_de_inicio_F-8111-08J.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Indicadores\Satisfacción-Cliente.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Manuales\Manual_Contratación_UdeA.pdf" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Procedimientos\Procedimiento_Contratación_por_la_UdeA_P-8111-04J.docx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Procedimientos\Procedimiento_de_Compras_y_Contratación_P-8111-01J.doc" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Procedimientos\Procedimiento_de_orden_de_pedido por_vales.docx" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Procedimientos\Procedimiento_de_orden_de_pedido_directa.docx" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Caracterizacion\Caracterización_Gestión_estratégica.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Documentos_externos\LEY_489_DE_1998.docx" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Formatos\Informe_de_Visita_F-8111-02D.doc" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Indicadores\Desempeño-Global.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Caracterizacion\Caracterización_Gestión_Financieraa.xlsm" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Indicadores\Ejecución_Presupuesto.xlsx" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Indicadores\Satisfacción-Usuario.xlsx" />
+    <Content Include="Data\Procesos\Mejora_Continua\Caracterizacion\Caracterización_Mejoramiento_Continuo.xlsm" />
+    <Content Include="Data\Procesos\Mejora_Continua\Formatos\Control_de_registros_F-8111-08M.xls" />
+    <Content Include="Data\Procesos\Mejora_Continua\Indicadores\Actividades-Mejora.xlsx" />
+    <Content Include="Data\Procesos\Mejora_Continua\Indicadores\Cobertura-Plan-Auditorias.xlsx" />
+    <Content Include="Data\Procesos\Mejora_Continua\Indicadores\Simplificación-Procesos.xlsx" />
+    <Content Include="Data\Procesos\Mejora_Continua\Instructivos\Guia_Aplicativo_SGC_G-8111-02M.docx" />
+    <Content Include="Data\Procesos\Mejora_Continua\Instructivos\Norma_fundamental_G-8111-01M.docx" />
+    <Content Include="Data\Procesos\Mejora_Continua\Manuales\Manual-Prestación-Servicio M-8111-02M.docx" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="img\objetivos.png" />
+    <Content Include="img\pgt.jpg" />
+    <Content Include="inicio.aspx" />
+    <Content Include="js\PIE.php" />
+    <Content Include="Login.aspx" />
+    <Content Include="scss\font-awesome.scss" />
+    <Content Include="scss\_animated.scss" />
+    <Content Include="scss\_bordered-pulled.scss" />
+    <Content Include="scss\_core.scss" />
+    <Content Include="scss\_fixed-width.scss" />
+    <Content Include="scss\_icons.scss" />
+    <Content Include="scss\_larger.scss" />
+    <Content Include="scss\_list.scss" />
+    <Content Include="scss\_mixins.scss" />
+    <Content Include="scss\_path.scss" />
+    <Content Include="scss\_rotated-flipped.scss" />
+    <Content Include="scss\_stacked.scss" />
+    <Content Include="scss\_variables.scss" />
+    <Content Include="CYC\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="CYC\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="CYC\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\1.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\10.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\11.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\12.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\13.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\14.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\15.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\16.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\17.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\18.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\19.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\2.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\20.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\21.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\22.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\23.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\24.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\25.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\26.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\27.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\28.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\29.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\3.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\30.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\31.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\32.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\33.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\34.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\35.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\36.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\37.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\38.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\4.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\5.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\6.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\7.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\8.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\9.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\Anexo_1_Cronograma.xls" />
+    <Content Include="Data\Plan_de_mejora\Plan_de_mejora\Anexo_2_Acciones_Correctivas.xls" />
+    <Content Include="Data\Documentos_Estrategicos\Manual_de_Calidad\Control_de_registros.xls" />
+    <Content Include="Data\Documentos_Estrategicos\Reglamento_Interno\Control_de_registros.xls" />
+    <Content Include="Data\Informe_de_revision\Control_de_registros.xls" />
+    <Content Include="Data\Listados\Maestro_de_documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Listados\Maestro_de_documentos_internos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Apoyo_Creacion_Empresas\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Procedimientos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Comunicaciones\Documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Estrategias_Tecnologicas\Procedimientos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Fort_Empren_IES\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Gestion_de_Talento_Humano\Procedimientos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Formatos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Administrativa\Infraestructura_SG\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Caracterizacion\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Compras_Contratacion\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Estrategica\Procedimientos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Formatos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Instructivos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Manuales\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Gestion_Financiera\Procedimientos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Mejora_Continua\Documentos_externos\Control_de_registros.xls" />
+    <Content Include="Data\Procesos\Mejora_Continua\Procedimientos\Control_de_registros.xls" />
+    <Content Include="Data\CYC\101010\Control_de_registros.xls" />
+    <Content Include="Data\CYC\11111\Control_de_registros.xls" />
+    <Content Include="Data\CYC\121212\Control_de_registros.xls" />
+    <Content Include="Data\CYC\66666\Control_de_registros.xls" />
+    <None Include="Properties\PublishProfiles\WEB_EQUIPO.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administracion\ADM.aspx" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\css\bootstrap-theme.css" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\css\bootstrap-theme.min.css" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\css\bootstrap.css" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\css\bootstrap.min.css" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\js\bootstrap.js" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\js\bootstrap.min.js" />
+    <Content Include="BotonesRedesSociales\bootstrapRedes\js\npm.js" />
+    <Content Include="BotonesRedesSociales\cssRedes\styleRedesSoc.css" />
+    <Content Include="BotonesRedesSociales\font-awesome\css\font-awesome.css" />
+    <Content Include="BotonesRedesSociales\font-awesome\css\font-awesome.min.css" />
+    <Content Include="BotonesRedesSociales\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="css\business-casual.css" />
+    <Content Include="css\datepicker.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\landing-page.css" />
+    <Content Include="css\tabla_head.css" />
+    <Content Include="CYC\ConsultarECO.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\anclas.jpg" />
+    <Content Include="img\bg.png" />
+    <Content Include="img\bodyusr.png" />
+    <Content Include="img\buzon.jpg" />
+    <Content Include="img\Calidad.png" />
+    <Content Include="img\cyc.jpg" />
+    <Content Include="img\download-icon.jpg" />
+    <Content Include="img\eco_correo.jpg" />
+    <Content Include="img\edit.png" />
+    <Content Include="img\elim-arch.png" />
+    <Content Include="img\eliminarcarpeta.png" />
+    <Content Include="img\empr.jpg" />
+    <Content Include="img\footer.png" />
+    <Content Include="img\header-intro.png" />
+    <Content Include="img\icon16.png" />
+    <Content Include="img\icon32.png" />
+    <Content Include="img\indexCyC.png" />
+    <Content Include="img\indexSG.jpg" />
+    <Content Include="img\login.jpeg" />
+    <Content Include="img\logo-lg.png" />
+    <Content Include="img\mapadeprocesos.png" />
+    <Content Include="img\Mision.png" />
+    <Content Include="img\orgfuncional.jpg" />
+    <Content Include="img\page1-img1.png" />
+    <Content Include="img\page1-img2.png" />
+    <Content Include="img\page1-img3.png" />
+    <Content Include="img\Sinobjetivos.jpg" />
+    <Content Include="img\slide-1 - copia.png" />
+    <Content Include="img\slide-1.png" />
+    <Content Include="img\slide-2.png" />
+    <Content Include="img\slide-3.jpg" />
+    <Content Include="img\slide-4.jpg" />
+    <Content Include="img\slide.jpg" />
+    <Content Include="img\thum.jpg" />
+    <Content Include="img\Vision.jpg" />
+    <Content Include="jquery\jquery-1.8.3.min.js" />
+    <Content Include="js\bootstrap-datepicker.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Chart.js" />
+    <Content Include="js\cufon-replace.js" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\FF-cash.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\imagesloaded.pkg.min.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.dataTables.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.equalheights.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\jquery.qtip.js" />
+    <Content Include="js\jquery.qtip.min.js" />
+    <Content Include="js\jquery.quicksearch.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\script.js" />
+    <Content Include="js\tms-0.3.js" />
+    <Content Include="js\tms_presets.js" />
+    <Content Include="js\Vegur_300.font.js" />
+    <Content Include="js\Vegur_500.font.js" />
+    <Content Include="P_Master\ADM.Master" />
+    <Content Include="P_Master\CYC.Master" />
+    <Content Include="P_Master\GI.Master" />
+    <Content Include="P_Master\Inicio.Master" />
+    <Content Include="P_Master\SGC.Master" />
+    <Content Include="P_Master\Usuario.Master" />
+    <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="SGC\ACreacionEmpresa.aspx" />
+    <Content Include="SGC\Buzon.aspx" />
+    <Content Include="SGC\Comunicaciones.aspx" />
+    <Content Include="SGC\ControlRegistro.aspx" />
+    <Content Include="SGC\ETecnologicas.aspx" />
+    <Content Include="SGC\FortalecimientoIES.aspx" />
+    <Content Include="SGC\GCContratacion.aspx" />
+    <Content Include="SGC\GEstrategica.aspx" />
+    <Content Include="SGC\GFinanciera.aspx" />
+    <Content Include="SGC\IndicadorSUsuario.aspx" />
+    <Content Include="SGC\InformeRevision.aspx" />
+    <Content Include="SGC\ISerTecnologicos.aspx" />
+    <Content Include="SGC\Listados.aspx" />
+    <Content Include="SGC\MaestroDocsExternos.aspx" />
+    <Content Include="SGC\MaestroDocsInternos.aspx" />
+    <Content Include="SGC\ManualC.aspx" />
+    <Content Include="SGC\MapaProcesos.aspx" />
+    <Content Include="SGC\MContinuo.aspx" />
+    <Content Include="SGC\Mision.aspx" />
+    <Content Include="SGC\OBJCalidad.aspx" />
+    <Content Include="SGC\ORGFuncional.aspx" />
+    <Content Include="SGC\PCalidad.aspx" />
+    <Content Include="SGC\PlanMejora.aspx" />
+    <Content Include="SGC\PRAccsCorrectPreventMejora.aspx" />
+    <Content Include="SGC\PRAuditoriasInternas.aspx" />
+    <Content Include="SGC\PRControlDocs.aspx" />
+    <Content Include="SGC\PRControlRegistros.aspx" />
+    <Content Include="SGC\PRProdServNoConforme.aspx" />
+    <Content Include="SGC\PRSatisfacciónUsuario.aspx" />
+    <Content Include="SGC\ReglamentoInt.aspx" />
+    <Content Include="SGC\THumano.aspx" />
+    <Content Include="SGC\Vision.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Usuario\ModifUsr_USR.aspx" />
+    <Content Include="Usuario\RUsuario.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administracion\ADM.aspx.cs">
+      <DependentUpon>ADM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\ADM.aspx.designer.cs">
+      <DependentUpon>ADM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\MUsuario.aspx.cs">
+      <DependentUpon>MUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\MUsuario.aspx.designer.cs">
+      <DependentUpon>MUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\ConsultarECO.aspx.cs">
+      <DependentUpon>ConsultarECO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\ConsultarECO.aspx.designer.cs">
+      <DependentUpon>ConsultarECO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\ConsultarEcoADM.aspx.cs">
+      <DependentUpon>ConsultarEcoADM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\ConsultarEcoADM.aspx.designer.cs">
+      <DependentUpon>ConsultarEcoADM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\CrearEco.aspx.cs">
+      <DependentUpon>CrearEco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\CrearEco.aspx.designer.cs">
+      <DependentUpon>CrearEco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\EditarEco.aspx.cs">
+      <DependentUpon>EditarEco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\EditarEco.aspx.designer.cs">
+      <DependentUpon>EditarEco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\GCompra.aspx.cs">
+      <DependentUpon>GCompra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\GCompra.aspx.designer.cs">
+      <DependentUpon>GCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\GCompraAdm.aspx.cs">
+      <DependentUpon>GCompraAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\GCompraAdm.aspx.designer.cs">
+      <DependentUpon>GCompraAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\inicioCYC.aspx.cs">
+      <DependentUpon>inicioCYC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\inicioCYC.aspx.designer.cs">
+      <DependentUpon>inicioCYC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CYC\inicioCYCAdm.aspx.cs">
+      <DependentUpon>inicioCYCAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CYC\inicioCYCAdm.aspx.designer.cs">
+      <DependentUpon>inicioCYCAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.aspx.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inicio.aspx.designer.cs">
+      <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="P_Master\ADM.Master.cs">
+      <DependentUpon>ADM.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="P_Master\ADM.Master.designer.cs">
+      <DependentUpon>ADM.Master</DependentUpon>
+    </Compile>
+    <Compile Include="P_Master\CYC.Master.cs">
+      <DependentUpon>CYC.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="P_Master\CYC.Master.designer.cs">
+      <DependentUpon>CYC.Master</DependentUpon>
+    </Compile>
+    <Compile Include="P_Master\GI.Master.cs">
+      <DependentUpon>GI.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="P_Master\GI.Master.designer.cs">
+      <DependentUpon>GI.Master</DependentUpon>
+    </Compile>
+    <Compile Include="P_Master\Inicio.Master.cs">
+      <DependentUpon>Inicio.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="P_Master\Inicio.Master.designer.cs">
+      <DependentUpon>Inicio.Master</DependentUpon>
+    </Compile>
+    <Compile Include="P_Master\SGC.Master.cs">
+      <DependentUpon>SGC.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="P_Master\SGC.Master.designer.cs">
+      <DependentUpon>SGC.Master</DependentUpon>
+    </Compile>
+    <Compile Include="P_Master\Usuario.Master.cs">
+      <DependentUpon>Usuario.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="P_Master\Usuario.Master.designer.cs">
+      <DependentUpon>Usuario.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ACreacionEmpresa.aspx.cs">
+      <DependentUpon>ACreacionEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ACreacionEmpresa.aspx.designer.cs">
+      <DependentUpon>ACreacionEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\Buzon.aspx.cs">
+      <DependentUpon>Buzon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\Buzon.aspx.designer.cs">
+      <DependentUpon>Buzon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\Comunicaciones.aspx.cs">
+      <DependentUpon>Comunicaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\Comunicaciones.aspx.designer.cs">
+      <DependentUpon>Comunicaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ControlRegistro.aspx.cs">
+      <DependentUpon>ControlRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ControlRegistro.aspx.designer.cs">
+      <DependentUpon>ControlRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ETecnologicas.aspx.cs">
+      <DependentUpon>ETecnologicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ETecnologicas.aspx.designer.cs">
+      <DependentUpon>ETecnologicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\FortalecimientoIES.aspx.cs">
+      <DependentUpon>FortalecimientoIES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\FortalecimientoIES.aspx.designer.cs">
+      <DependentUpon>FortalecimientoIES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\GCContratacion.aspx.cs">
+      <DependentUpon>GCContratacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\GCContratacion.aspx.designer.cs">
+      <DependentUpon>GCContratacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\GEstrategica.aspx.cs">
+      <DependentUpon>GEstrategica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\GEstrategica.aspx.designer.cs">
+      <DependentUpon>GEstrategica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\GFinanciera.aspx.cs">
+      <DependentUpon>GFinanciera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\GFinanciera.aspx.designer.cs">
+      <DependentUpon>GFinanciera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\IndicadorSUsuario.aspx.cs">
+      <DependentUpon>IndicadorSUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\IndicadorSUsuario.aspx.designer.cs">
+      <DependentUpon>IndicadorSUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\InformeRevision.aspx.cs">
+      <DependentUpon>InformeRevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\InformeRevision.aspx.designer.cs">
+      <DependentUpon>InformeRevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ISerTecnologicos.aspx.cs">
+      <DependentUpon>ISerTecnologicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ISerTecnologicos.aspx.designer.cs">
+      <DependentUpon>ISerTecnologicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\Listados.aspx.cs">
+      <DependentUpon>Listados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\Listados.aspx.designer.cs">
+      <DependentUpon>Listados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\MaestroDocsExternos.aspx.cs">
+      <DependentUpon>MaestroDocsExternos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\MaestroDocsExternos.aspx.designer.cs">
+      <DependentUpon>MaestroDocsExternos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\MaestroDocsInternos.aspx.cs">
+      <DependentUpon>MaestroDocsInternos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\MaestroDocsInternos.aspx.designer.cs">
+      <DependentUpon>MaestroDocsInternos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ManualC.aspx.cs">
+      <DependentUpon>ManualC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ManualC.aspx.designer.cs">
+      <DependentUpon>ManualC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\MapaProcesos.aspx.cs">
+      <DependentUpon>MapaProcesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\MapaProcesos.aspx.designer.cs">
+      <DependentUpon>MapaProcesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\MContinuo.aspx.cs">
+      <DependentUpon>MContinuo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\MContinuo.aspx.designer.cs">
+      <DependentUpon>MContinuo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\Mision.aspx.cs">
+      <DependentUpon>Mision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\Mision.aspx.designer.cs">
+      <DependentUpon>Mision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\OBJCalidad.aspx.cs">
+      <DependentUpon>OBJCalidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\OBJCalidad.aspx.designer.cs">
+      <DependentUpon>OBJCalidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ORGFuncional.aspx.cs">
+      <DependentUpon>ORGFuncional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ORGFuncional.aspx.designer.cs">
+      <DependentUpon>ORGFuncional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PCalidad.aspx.cs">
+      <DependentUpon>PCalidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PCalidad.aspx.designer.cs">
+      <DependentUpon>PCalidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PlanMejora.aspx.cs">
+      <DependentUpon>PlanMejora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PlanMejora.aspx.designer.cs">
+      <DependentUpon>PlanMejora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PRAccsCorrectPreventMejora.aspx.cs">
+      <DependentUpon>PRAccsCorrectPreventMejora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PRAccsCorrectPreventMejora.aspx.designer.cs">
+      <DependentUpon>PRAccsCorrectPreventMejora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PRAuditoriasInternas.aspx.cs">
+      <DependentUpon>PRAuditoriasInternas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PRAuditoriasInternas.aspx.designer.cs">
+      <DependentUpon>PRAuditoriasInternas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PRControlDocs.aspx.cs">
+      <DependentUpon>PRControlDocs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PRControlDocs.aspx.designer.cs">
+      <DependentUpon>PRControlDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PRControlRegistros.aspx.cs">
+      <DependentUpon>PRControlRegistros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PRControlRegistros.aspx.designer.cs">
+      <DependentUpon>PRControlRegistros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PRProdServNoConforme.aspx.cs">
+      <DependentUpon>PRProdServNoConforme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PRProdServNoConforme.aspx.designer.cs">
+      <DependentUpon>PRProdServNoConforme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\PRSatisfacciónUsuario.aspx.cs">
+      <DependentUpon>PRSatisfacciónUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\PRSatisfacciónUsuario.aspx.designer.cs">
+      <DependentUpon>PRSatisfacciónUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\ReglamentoInt.aspx.cs">
+      <DependentUpon>ReglamentoInt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\ReglamentoInt.aspx.designer.cs">
+      <DependentUpon>ReglamentoInt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\THumano.aspx.cs">
+      <DependentUpon>THumano.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\THumano.aspx.designer.cs">
+      <DependentUpon>THumano.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGC\Vision.aspx.cs">
+      <DependentUpon>Vision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGC\Vision.aspx.designer.cs">
+      <DependentUpon>Vision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\ModifUsr_USR.aspx.cs">
+      <DependentUpon>ModifUsr_USR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\ModifUsr_USR.aspx.designer.cs">
+      <DependentUpon>ModifUsr_USR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\RUsuario.aspx.cs">
+      <DependentUpon>RUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario\RUsuario.aspx.designer.cs">
+      <DependentUpon>RUsuario.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CEntidades\CEntidades.csproj">
+      <Project>{6f11e46b-32db-48fc-a919-cc3d2bc8e7b6}</Project>
+      <Name>CEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CReglas\CReglas.csproj">
+      <Project>{e4451790-38c1-4f2b-a46d-f576d2180c6a}</Project>
+      <Name>CReglas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1258</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1258/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

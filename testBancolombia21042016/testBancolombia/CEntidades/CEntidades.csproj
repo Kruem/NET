@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A6A69DD-A63E-4162-9199-B708A82AF4E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CEntidades</RootNamespace>
+    <AssemblyName>CEntidades</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tblAcciones.cs" />
+    <Compile Include="tblAppsAlojamiento.cs" />
+    <Compile Include="tblAppsBeneficiosParqueE.cs" />
+    <Compile Include="tblAppsBolsaHoras.cs" />
+    <Compile Include="tblAppsCicloEmpresa.cs" />
+    <Compile Include="tblAppsEmpleos.cs" />
+    <Compile Include="tblAppsEmprendedores.cs" />
+    <Compile Include="tblAppsFormalizacion.cs" />
+    <Compile Include="tblAppsMesaRecursos.cs" />
+    <Compile Include="tblAppsVentas.cs" />
+    <Compile Include="tblCategoriaInicialDefault.cs" />
+    <Compile Include="tblDefault_X_Empresa.cs" />
+    <Compile Include="tblECategoriasInicialTimm.cs" />
+    <Compile Include="tblEmpresa.cs" />
+    <Compile Include="tblERealxIdeal.cs" />
+    <Compile Include="tblEResultadosOportunidad.cs" />
+    <Compile Include="tblEResultadosRecursos.cs" />
+    <Compile Include="tblEResultadosTH.cs" />
+    <Compile Include="tblOCanales.cs" />
+    <Compile Include="tblOClientes.cs" />
+    <Compile Include="tblOCulturaDeLaInnovacion.cs" />
+    <Compile Include="tblODlloProductoServicio.cs" />
+    <Compile Include="tblOEscalabilidad.cs" />
+    <Compile Include="tblOGeneracionNuevosConceptos.cs" />
+    <Compile Include="tblOGestionConocimTecnol.cs" />
+    <Compile Include="tblOPropiedadIntelectual.cs" />
+    <Compile Include="tblOPropuestaDeValor.cs" />
+    <Compile Include="tblORedefinProcesProduc.cs" />
+    <Compile Include="tblORelacionClientes.cs" />
+    <Compile Include="tblOTecnologia.cs" />
+    <Compile Include="tblRAliadosClaves.cs" />
+    <Compile Include="tblRAntecedentesFinanciacion.cs" />
+    <Compile Include="tblResultOCanales.cs" />
+    <Compile Include="tblResultOClientes.cs" />
+    <Compile Include="tblResultOCulturaDeLaInnovacion.cs" />
+    <Compile Include="tblResultODlloProductoServicio.cs" />
+    <Compile Include="tblResultOEscalabilidad.cs" />
+    <Compile Include="tblResultOGeneracionNuevosConceptos.cs" />
+    <Compile Include="tblResultOGestionConocimTecnol.cs" />
+    <Compile Include="tblResultOPropiedadIntelectual.cs" />
+    <Compile Include="tblResultOPropuestaDeValor.cs" />
+    <Compile Include="tblResultORedefinProcesProduc.cs" />
+    <Compile Include="tblResultORelacionClientes.cs" />
+    <Compile Include="tblResultOTecnologia.cs" />
+    <Compile Include="tblResultRAliadosClave.cs" />
+    <Compile Include="tblResultRProyeccionEconomica.cs" />
+    <Compile Include="tblResultRProyeccionFinanciera.cs" />
+    <Compile Include="tblResultRAntecedentesFinanciacion.cs" />
+    <Compile Include="tblResultRFuentesFinancFuturas.cs" />
+    <Compile Include="tblResultRInfoEconoFinancAct.cs" />
+    <Compile Include="tblResultTHActitudCapacEmpreReveladas.cs" />
+    <Compile Include="tblResultTHAntecFormLaborEmprend.cs" />
+    <Compile Include="tblResultTHCapacidBuscarInfoMercado.cs" />
+    <Compile Include="tblResultTHCapacidConstruRedContacto.cs" />
+    <Compile Include="tblResultTHClaridadComunicModeloNeg.cs" />
+    <Compile Include="tblResultTHFormalizacion.cs" />
+    <Compile Include="tblResultTHOrganizEstructEmpres.cs" />
+    <Compile Include="tblResultTHRequerimEmpleoyRH.cs" />
+    <Compile Include="tblResultxParam.cs" />
+    <Compile Include="tblRFuentesFinancFuturas.cs" />
+    <Compile Include="tblRInfoEconoFinancAct.cs" />
+    <Compile Include="tblRProyeccionEconomica.cs" />
+    <Compile Include="tblRProyeccionFinanciera.cs" />
+    <Compile Include="tblTHActitudCapacEmpreReveladas.cs" />
+    <Compile Include="tblTHAntecFormLaborEmprend.cs" />
+    <Compile Include="tblTHCapacidBuscarInfoMercado.cs" />
+    <Compile Include="tblTHCapacidConstruRedContacto.cs" />
+    <Compile Include="tblTHClaridadComunicModeloNeg.cs" />
+    <Compile Include="tblTHFormalizacion.cs" />
+    <Compile Include="tblTHOrganizEstructEmpres.cs" />
+    <Compile Include="tblTHRequerimEmpleoyRH.cs" />
+    <Compile Include="tblTimmOp.cs" />
+    <Compile Include="tblTimmRec.cs" />
+    <Compile Include="tblTimmTH.cs" />
+    <Compile Include="tblUsr.cs" />
+    <Compile Include="tblUsrHistoricoLog.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,18 @@
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Debug\CReglas.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Debug\CReglas.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Debug\CDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Debug\CEntidades.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Debug\CDatos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\bin\Debug\CEntidades.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\obj\Debug\CReglas.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\obj\Debug\CReglas.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CReglas\obj\Debug\CReglas.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\bin\Debug\CReglas.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\bin\Debug\CReglas.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\bin\Debug\CDatos.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\bin\Debug\CEntidades.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\bin\Debug\CDatos.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\bin\Debug\CEntidades.pdb
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\obj\Debug\CReglas.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\obj\Debug\CReglas.dll
+C:\Users\Administrador\Desktop\Proyectos_Desarrollo_2015\SisGest2013Full\CReglas\obj\Debug\CReglas.pdb

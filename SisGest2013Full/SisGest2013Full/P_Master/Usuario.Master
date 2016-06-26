@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Usuario.master.cs" Inherits="SisGest2013Full.P_Master.Usuario" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Usuario</title>
+    <!-- Bootstrap Core CSS -->
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="../css/bootstrap-v3.3.5.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="../css/landing-page.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- Custom CSS -->
+    <link href="../css/business-casual.css" rel="stylesheet" type="text/css" />
+    <link href="../css/datepicker.css" rel="stylesheet" type="text/css" />
+
+    <script src="../js/jquery-1.4.1.min.js" type="text/javascript"></script>
+
+    <script src="../js/jquery-1.11.1.min.js" type="text/javascript" language="javascript"></script>
+
+    <script src="../js/bootstrap-datepicker.js" type="text/javascript" language="javascript"></script>
+
+    <script src="../js/jquery.quicksearch.js" type="text/javascript"></script>
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+        rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+    <!-- Navigation -->
+   
+    
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    
+
+    <!-- /.container -->
+
+
+
+    
+
+    <!-- jQuery -->
+
+</body>
+
+</html>

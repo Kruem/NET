@@ -1,0 +1,7 @@
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\bin\Release\CDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\bin\Release\CDatos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\bin\Release\CEntidades.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\bin\Release\CEntidades.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\obj\Release\CDatos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\obj\Release\CDatos.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CDatos\obj\Release\CDatos.pdb

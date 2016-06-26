@@ -1,0 +1,1144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Administrador\Desktop\SI_2.0</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Administracion/ADM.aspx">
+      <publishTime>07/29/2015 17:00:02</publishTime>
+    </File>
+    <File Include="Administracion/MUsuario.aspx">
+      <publishTime>08/03/2015 10:16:29</publishTime>
+    </File>
+    <File Include="bin/CDatos.dll">
+      <publishTime>08/03/2015 10:19:24</publishTime>
+    </File>
+    <File Include="bin/CEntidades.dll">
+      <publishTime>08/03/2015 10:19:24</publishTime>
+    </File>
+    <File Include="bin/CReglas.dll">
+      <publishTime>08/03/2015 10:19:25</publishTime>
+    </File>
+    <File Include="bin/SisGest2013Full.dll">
+      <publishTime>08/03/2015 12:18:01</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/css/bootstrap-theme.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/css/bootstrap-theme.css.map">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/css/bootstrap-theme.min.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/css/bootstrap.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/css/bootstrap.css.map">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/css/bootstrap.min.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/js/bootstrap.js">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/js/bootstrap.min.js">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/bootstrapRedes/js/npm.js">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/cssRedes/styleRedesSoc.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/css/font-awesome.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/css/font-awesome.min.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/animated.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/bordered-pulled.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/core.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/fixed-width.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/font-awesome.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/icons.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/larger.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/list.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/mixins.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/path.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/rotated-flipped.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/stacked.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/less/variables.less">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/font-awesome.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_animated.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_core.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_fixed-width.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_icons.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_larger.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_list.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_mixins.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_path.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_stacked.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="BotonesRedesSociales/font-awesome/scss/_variables.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/bootstrap-v3.3.5.min.css">
+      <publishTime>07/30/2015 11:45:46</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>08/03/2015 10:02:23</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>08/03/2015 10:02:23</publishTime>
+    </File>
+    <File Include="css/business-casual.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/datepicker.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/font-awesome.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/landing-page.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="css/tabla_head.css">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="CYC/ConsultarECO.aspx">
+      <publishTime>07/30/2015 11:31:16</publishTime>
+    </File>
+    <File Include="CYC/ConsultarEcoADM.aspx">
+      <publishTime>07/30/2015 11:33:16</publishTime>
+    </File>
+    <File Include="CYC/CrearEco.aspx">
+      <publishTime>07/30/2015 12:09:13</publishTime>
+    </File>
+    <File Include="CYC/DataSet1.xsc">
+      <publishTime>07/30/2015 11:24:11</publishTime>
+    </File>
+    <File Include="CYC/DataSet1.xss">
+      <publishTime>07/30/2015 11:24:11</publishTime>
+    </File>
+    <File Include="CYC/EditarEco.aspx">
+      <publishTime>07/30/2015 09:14:14</publishTime>
+    </File>
+    <File Include="CYC/GCompra.aspx">
+      <publishTime>07/30/2015 09:16:09</publishTime>
+    </File>
+    <File Include="CYC/GCompraAdm.aspx">
+      <publishTime>08/03/2015 08:32:12</publishTime>
+    </File>
+    <File Include="CYC/inicioCYC.aspx">
+      <publishTime>07/30/2015 09:23:58</publishTime>
+    </File>
+    <File Include="CYC/inicioCYCAdm.aspx">
+      <publishTime>08/03/2015 08:28:37</publishTime>
+    </File>
+    <File Include="Data/CYC/101010/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:41:01</publishTime>
+    </File>
+    <File Include="Data/CYC/11111/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:41:02</publishTime>
+    </File>
+    <File Include="Data/CYC/121212/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:41:04</publishTime>
+    </File>
+    <File Include="Data/CYC/66666/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:41:05</publishTime>
+    </File>
+    <File Include="Data/Documentos_Estrategicos/Manual_de_Calidad/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:33:56</publishTime>
+    </File>
+    <File Include="Data/Documentos_Estrategicos/Reglamento_Interno/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:33:59</publishTime>
+    </File>
+    <File Include="Data/Informe_de_revision/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:34:07</publishTime>
+    </File>
+    <File Include="Data/Listados/Control_de_registro/Control_de_registros.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Listados/Maestro_de_documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:34:16</publishTime>
+    </File>
+    <File Include="Data/Listados/Maestro_de_documentos_internos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:34:24</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/1.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/10.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/11.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/12.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/13.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/14.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/15.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/16.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/17.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/18.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/19.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/2.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/20.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/21.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/22.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/23.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/24.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/25.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/26.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/27.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/28.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/29.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/3.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/30.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/31.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/32.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/33.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/34.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/35.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/36.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/37.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/38.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/4.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/5.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/6.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/7.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/8.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/9.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/Anexo_1_Cronograma.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Plan_de_mejora/Plan_de_mejora/Anexo_2_Acciones_Correctivas.xls">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Caracterizacion/Caracterización_ACE.xlsm">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:34:40</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Formatos/Diagnóstico_F-8111-03A.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Indicadores/Empleos_Calificados.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Indicadores/Empresas_Formalizadas.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Indicadores/Presupuesto_Ejecutado.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Indicadores/Proyectos-Acompañados-Incub.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Indicadores/Proyectos-Acompañados-Pre.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Indicadores/Satisfacción_Usuario.xlsx">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:34:57</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:34:58</publishTime>
+    </File>
+    <File Include="Data/Procesos/Apoyo_Creacion_Empresas/Procedimientos/Procedimiento_comité_de_proyectos_P-8111-02A.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Caracterizacion/Caracterización_Comunicaciones.xls.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:33</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Agenda_académica_y_cultural_F-8111-06C.xls">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Bitácora_F-8111-05C.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Check_List_integración_de_agentes_F-8111-04C.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Entrega_de_material_y_divulgación_F-8111-02C.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Evaluación_charla_de_orientación_F-8111-09C.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Evaluación_de_evento_F-8111-07C.xls">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Lista_de_asistencia_F-8111-08C.xls">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Reporte_de_empresa_en_punto_móvil_F-8111-11C.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Solicitud_F-8111-03C.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Formatos/Trazabilidad_puntos_móviles_F-8111-10C.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Indicadores/Cumplimiento-Plan.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Indicadores/Satisfacción_Usuario.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Indicadores/Servicios_Atendidos.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:25</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:22</publishTime>
+    </File>
+    <File Include="Data/Procesos/Comunicaciones/Procedimientos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:21</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Caracterizacion/Estrategias_Tecnologicas.xlsm">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:37</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Formatos/Lista_Chequeo_F-8111-01T.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Idicadores/Satisfacción-Usuario.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Idicadores/Tiempo_Funcionamiento.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:49</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:50</publishTime>
+    </File>
+    <File Include="Data/Procesos/Estrategias_Tecnologicas/Procedimientos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:35:52</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Caracterizacion/Caracterización_IES.xlsm">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:36:07</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Carta_de_Presentación_Propuesta_F-8111-03Z.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Certificado_de_Contrapartida_F-8111-07Z.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Descripción_Equipo_Trabajo_IES_F-8111-05Z.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Evaluacion_de_iniciativas_F-8111-12Z.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Presentación_de_la_Institución_F-8111-10Z.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Presupuesto_Fortalecimiento_F-8111-06Z.xlsm">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Registro_Apertura_Sobres_F-8111-02Z.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Formatos/Trazabilidad_Asistencia_F-8111-11Z.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Indicadores/Emprendedores_Formados_Entrenados.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Indicadores/Iniciativas_Puesta_Marcha.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Indicadores/Recursos_Contrapartidas.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:36:18</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:36:19</publishTime>
+    </File>
+    <File Include="Data/Procesos/Fort_Empren_IES/Procedimientos/Procedimiento_Fortalecimiento_IES_P-8111-01Z.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Caracterizacion/Gestión_Administrativa.xlsm">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Documentos_externos/Politica_Salud_Ocupacional_U_de_A.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Formatos/Ajuste_al_perfil_F-8111-02H.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Indicadores/Actividades_Capacitación.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Indicadores/Calificación-Desempeño.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Indicadores/Satisfacción_del_Usuario.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Instructivos/Guia_Aplicativo_GTH G-8111-01H.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:37:01</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Gestion_de_Talento_Humano/Procedimientos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:37:08</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Documentos_externos/Resolución_Rectoral.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Formatos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:37:18</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Indicadores/Acciones_Planeadas.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Indicadores/Entregas-Completas.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Indicadores/Satisfacción_del_Usuario.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:37:32</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:37:33</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Administrativa/Infraestructura_SG/Procedimientos/Procedimiento_Control_de_Inventarios_P-8111-03S.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Caracterizacion/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:37:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Acuerdo_Superior-095.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolucion-20458.rtf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolucion-21039.rtf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-006-2014.pdf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-13843.pdf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-15063.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-17115.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-21000.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-23743.rtf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Documentos_externos/Resolución-32303.pdf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Formatos/Acta_de_inicio_F-8111-08J.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Indicadores/Satisfacción-Cliente.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:38:00</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Manuales/Manual_Contratación_UdeA.pdf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Procedimientos/Procedimiento_Contratación_por_la_UdeA_P-8111-04J.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Procedimientos/Procedimiento_de_Compras_y_Contratación_P-8111-01J.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Procedimientos/Procedimiento_de_orden_de_pedido por_vales.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Compras_Contratacion/Procedimientos/Procedimiento_de_orden_de_pedido_directa.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Caracterizacion/Caracterización_Gestión_estratégica.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Documentos_externos/LEY_489_DE_1998.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Formatos/Informe_de_Visita_F-8111-02D.doc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Indicadores/Desempeño-Global.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:38:34</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:38:42</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Estrategica/Procedimientos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:38:49</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Caracterizacion/Caracterización_Gestión_Financieraa.xlsm">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:39:56</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Formatos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:40:00</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Indicadores/Ejecución_Presupuesto.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Indicadores/Satisfacción-Usuario.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Instructivos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:40:11</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Manuales/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:40:12</publishTime>
+    </File>
+    <File Include="Data/Procesos/Gestion_Financiera/Procedimientos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:40:13</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Caracterizacion/Caracterización_Mejoramiento_Continuo.xlsm">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Documentos_externos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:40:20</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Formatos/Control_de_registros_F-8111-08M.xls">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Indicadores/Actividades-Mejora.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Indicadores/Cobertura-Plan-Auditorias.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Indicadores/Simplificación-Procesos.xlsx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Instructivos/Guia_Aplicativo_SGC_G-8111-02M.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Instructivos/Norma_fundamental_G-8111-01M.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Manuales/Manual-Prestación-Servicio M-8111-02M.docx">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Data/Procesos/Mejora_Continua/Procedimientos/Control_de_registros.xls">
+      <publishTime>08/03/2015 10:40:47</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/anclas.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/bg.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/bodyusr.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/buzon.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/Calidad.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/cyc.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/download-icon.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/eco_correo.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/edit.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/elim-arch.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/eliminarcarpeta.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/empr.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/footer.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/header-intro.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/icon16.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/icon32.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/indexCyC.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/indexSG.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/login.jpeg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/logo-lg.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/mapadeprocesos.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/Mision.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/objetivos.png">
+      <publishTime>08/03/2015 08:51:37</publishTime>
+    </File>
+    <File Include="img/orgfuncional.jpg">
+      <publishTime>08/03/2015 08:22:30</publishTime>
+    </File>
+    <File Include="img/page1-img1.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/page1-img2.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/page1-img3.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/pgt.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/Sinobjetivos.jpg">
+      <publishTime>05/05/2015 16:42:14</publishTime>
+    </File>
+    <File Include="img/slide-1 - copia.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/slide-1.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/slide-2.png">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/slide-3.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/slide-4.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/slide.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/thum.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="img/Vision.jpg">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>07/31/2015 09:29:17</publishTime>
+    </File>
+    <File Include="inicio.aspx">
+      <publishTime>07/31/2015 16:04:01</publishTime>
+    </File>
+    <File Include="jquery/jquery-1.8.3.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/bootstrap-datepicker.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/Chart.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/cufon-replace.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/cufon-yui.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/FF-cash.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/html5.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/imagesloaded.pkg.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery-1.10.2.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.1.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery-1.4.1.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery-1.7.1.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.dataTables.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.easing.1.3.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.equalheights.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.prettyPhoto.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.qtip.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.qtip.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/jquery.quicksearch.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/PIE.htc">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/PIE.php">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/script.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/tms-0.3.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/tms_presets.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/Vegur_300.font.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="js/Vegur_500.font.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>08/03/2015 10:09:57</publishTime>
+    </File>
+    <File Include="P_Master/ADM.Master">
+      <publishTime>08/03/2015 09:03:36</publishTime>
+    </File>
+    <File Include="P_Master/CYC.Master">
+      <publishTime>07/30/2015 11:45:52</publishTime>
+    </File>
+    <File Include="P_Master/GI.Master">
+      <publishTime>07/30/2015 11:46:32</publishTime>
+    </File>
+    <File Include="P_Master/Inicio.Master">
+      <publishTime>07/30/2015 11:50:01</publishTime>
+    </File>
+    <File Include="P_Master/SGC.Master">
+      <publishTime>08/03/2015 09:02:40</publishTime>
+    </File>
+    <File Include="P_Master/Usuario.Master">
+      <publishTime>08/03/2015 10:06:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>07/29/2015 16:48:43</publishTime>
+    </File>
+    <File Include="scss/font-awesome.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_animated.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_bordered-pulled.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_core.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_fixed-width.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_icons.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_larger.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_list.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_mixins.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_path.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_rotated-flipped.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_stacked.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="scss/_variables.scss">
+      <publishTime>07/29/2015 16:48:42</publishTime>
+    </File>
+    <File Include="SGC/ACreacionEmpresa.aspx">
+      <publishTime>07/30/2015 09:27:45</publishTime>
+    </File>
+    <File Include="SGC/Buzon.aspx">
+      <publishTime>07/30/2015 09:51:45</publishTime>
+    </File>
+    <File Include="SGC/Comunicaciones.aspx">
+      <publishTime>07/31/2015 16:56:53</publishTime>
+    </File>
+    <File Include="SGC/ControlRegistro.aspx">
+      <publishTime>07/31/2015 09:57:51</publishTime>
+    </File>
+    <File Include="SGC/ETecnologicas.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/FortalecimientoIES.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/GCContratacion.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/GEstrategica.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/GFinanciera.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/IndicadorSUsuario.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/InformeRevision.aspx">
+      <publishTime>07/31/2015 16:55:58</publishTime>
+    </File>
+    <File Include="SGC/ISerTecnologicos.aspx">
+      <publishTime>07/31/2015 16:57:26</publishTime>
+    </File>
+    <File Include="SGC/Listados.aspx">
+      <publishTime>07/31/2015 16:57:36</publishTime>
+    </File>
+    <File Include="SGC/MaestroDocsExternos.aspx">
+      <publishTime>07/31/2015 17:05:15</publishTime>
+    </File>
+    <File Include="SGC/MaestroDocsInternos.aspx">
+      <publishTime>07/31/2015 17:06:22</publishTime>
+    </File>
+    <File Include="SGC/ManualC.aspx">
+      <publishTime>07/31/2015 16:58:26</publishTime>
+    </File>
+    <File Include="SGC/MapaProcesos.aspx">
+      <publishTime>07/30/2015 10:47:22</publishTime>
+    </File>
+    <File Include="SGC/MContinuo.aspx">
+      <publishTime>07/31/2015 16:58:26</publishTime>
+    </File>
+    <File Include="SGC/Mision.aspx">
+      <publishTime>07/31/2015 16:58:26</publishTime>
+    </File>
+    <File Include="SGC/OBJCalidad.aspx">
+      <publishTime>07/31/2015 16:58:11</publishTime>
+    </File>
+    <File Include="SGC/ORGFuncional.aspx">
+      <publishTime>07/31/2015 16:58:11</publishTime>
+    </File>
+    <File Include="SGC/PCalidad.aspx">
+      <publishTime>07/31/2015 16:58:04</publishTime>
+    </File>
+    <File Include="SGC/PlanMejora.aspx">
+      <publishTime>07/31/2015 16:56:39</publishTime>
+    </File>
+    <File Include="SGC/PRAccsCorrectPreventMejora.aspx">
+      <publishTime>07/31/2015 16:56:31</publishTime>
+    </File>
+    <File Include="SGC/PRAuditoriasInternas.aspx">
+      <publishTime>07/31/2015 16:59:10</publishTime>
+    </File>
+    <File Include="SGC/PRControlDocs.aspx">
+      <publishTime>07/31/2015 15:43:01</publishTime>
+    </File>
+    <File Include="SGC/PRControlRegistros.aspx">
+      <publishTime>08/03/2015 08:17:02</publishTime>
+    </File>
+    <File Include="SGC/PRProdServNoConforme.aspx">
+      <publishTime>08/03/2015 08:17:43</publishTime>
+    </File>
+    <File Include="SGC/PRSatisfacciónUsuario.aspx">
+      <publishTime>08/03/2015 08:18:15</publishTime>
+    </File>
+    <File Include="SGC/ReglamentoInt.aspx">
+      <publishTime>07/31/2015 16:58:54</publishTime>
+    </File>
+    <File Include="SGC/THumano.aspx">
+      <publishTime>07/31/2015 16:58:54</publishTime>
+    </File>
+    <File Include="SGC/Vision.aspx">
+      <publishTime>07/31/2015 16:58:54</publishTime>
+    </File>
+    <File Include="Usuario/ModifUsr_USR.aspx">
+      <publishTime>07/30/2015 10:56:53</publishTime>
+    </File>
+    <File Include="Usuario/RUsuario.aspx">
+      <publishTime>07/30/2015 10:58:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/03/2015 12:18:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

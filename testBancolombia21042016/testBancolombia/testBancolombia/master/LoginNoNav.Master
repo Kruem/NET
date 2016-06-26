@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginNoNav.master.cs" Inherits="testBancolombia.master.LoginNoNav" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>Parque E</title>
+    <link id="Link1" runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row" style="">
+                <div class="col-md-4 ">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="../Index.aspx" style="color: #FFFFFF;">Parque E</a>
+
+                        <%--                        #F37121 color oficial parque                        --%>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
+                        <ul class="nav navbar-nav navbar-right menu">
+                            <li><a href="../Index.aspx" class="page-scroll active">Inicio</a></li>
+                            </ul>
+                        </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- menu fin-->
+
+
+    <asp:ContentPlaceHolder ID="body" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- footer inicio-->
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="../images/footer.png" class="img-responsive" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- footer fin-->
+    <!-- footer link inicio-->
+    <div class="container-fluid footer panel-footer">
+        <div class="row">
+            <div class="col-md-12">
+                <p><span><a href="http://www.parquedelemprendimiento.com/" target="_blank">www.parquedelemprendimiento.com</a></span></p>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- footer link fin-->
+
+    <asp:ContentPlaceHolder runat="server" ID="js">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

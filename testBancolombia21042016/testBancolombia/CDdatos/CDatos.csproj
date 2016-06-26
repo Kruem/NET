@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66ED119D-4E64-4994-B52A-4010AA290B69}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CDdatos</RootNamespace>
+    <AssemblyName>CDdatos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CDcategoriasTimmons.cs" />
+    <Compile Include="CDconexion.cs" />
+    <Compile Include="CDdefaultOPTHRC.cs" />
+    <Compile Include="CDempresa.cs" />
+    <Compile Include="CDEmpresa_x_Default.cs" />
+    <Compile Include="CDoCanales.cs" />
+    <Compile Include="CDoClientes.cs" />
+    <Compile Include="CDoCulturaDeLaInnovacion.cs" />
+    <Compile Include="CDoDlloProductoServicio.cs" />
+    <Compile Include="CDoEscalabilidad.cs" />
+    <Compile Include="CDoGeneracionNuevosConceptos.cs" />
+    <Compile Include="CDoGestionConocimTecnol.cs" />
+    <Compile Include="CDoPropiedadIntelectual.cs" />
+    <Compile Include="CDoPropuestaDeValor.cs" />
+    <Compile Include="CDoRedefinProcesProduc.cs" />
+    <Compile Include="CDoRelacionClientes.cs" />
+    <Compile Include="CDoTecnologia.cs" />
+    <Compile Include="CDresultOCanales.cs" />
+    <Compile Include="CDresultOClientes.cs" />
+    <Compile Include="CDresultOCultInnova.cs" />
+    <Compile Include="CDresultODlloProductoServicio.cs" />
+    <Compile Include="CDresultOEscalabilidad.cs" />
+    <Compile Include="CDresultOGeneracionNuevosConceptos.cs" />
+    <Compile Include="CDresultOGestionConocimTecnol.cs" />
+    <Compile Include="CDresultOPropiedadIntelectual.cs" />
+    <Compile Include="CDresultOPropuestaDeValor.cs" />
+    <Compile Include="CDresultORedefinProcesProduc.cs" />
+    <Compile Include="CDresultORelacionClientes.cs" />
+    <Compile Include="CDresultOTecnologia.cs" />
+    <Compile Include="CDresultRAliadosCLaves.cs" />
+    <Compile Include="CDresultRFuentesFinancFuturas.cs" />
+    <Compile Include="CDresultRInfoEconoFinancAct.cs" />
+    <Compile Include="CDresultRProyeccionEconomica.cs" />
+    <Compile Include="CDresultRProyeccionFinanciera.cs" />
+    <Compile Include="CDresultTHActitudCapacEmpreReveladas.cs" />
+    <Compile Include="CDresultTHAntecFormLaborEmprend.cs" />
+    <Compile Include="CDresultTHCapacidBuscarInfoMercado.cs" />
+    <Compile Include="CDresultTHCapacidConstruRedContacto.cs" />
+    <Compile Include="CDresultTHClaridadComunicModeloNeg.cs" />
+    <Compile Include="CDresultTHFormalizacion.cs" />
+    <Compile Include="CDresultTHOrganizEstructEmpres.cs" />
+    <Compile Include="CDresultTHRequerimEmpleoyRH.cs" />
+    <Compile Include="CDrFuentesFinancFuturas.cs" />
+    <Compile Include="CDtblResultxParam.cs" />
+    <Compile Include="CDTimmonsOportunidad.cs" />
+    <Compile Include="CDTimmonsRecursos.cs" />
+    <Compile Include="CDTimmonsTalentoHumano.cs" />
+    <Compile Include="CDusuario.cs" />
+    <Compile Include="CDemprendedor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CDresultRAntecedentesFinanciacion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CEntidades\CEntidades.csproj">
+      <Project>{3a6a69dd-a63e-4162-9199-b708a82af4e0}</Project>
+      <Name>CEntidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

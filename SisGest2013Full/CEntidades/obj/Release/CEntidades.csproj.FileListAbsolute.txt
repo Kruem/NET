@@ -1,0 +1,4 @@
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CEntidades\bin\Release\CEntidades.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CEntidades\bin\Release\CEntidades.pdb
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CEntidades\obj\Release\CEntidades.dll
+C:\Users\Administrador\Documents\Visual Studio 2013\Projects\SisGest2013Full\CEntidades\obj\Release\CEntidades.pdb

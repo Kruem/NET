@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E20326B8-B2DF-451B-878D-63B3CC42B132}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>testBancolombia</RootNamespace>
+    <AssemblyName>testBancolombia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administrador\adminMenu.aspx" />
+    <Content Include="Administrador\AppPrePrueba.aspx" />
+    <Content Include="Administrador\indexAdm.aspx" />
+    <Content Include="Administrador\menuAdminParam.aspx" />
+    <Content Include="Administrador\menuTimmOp.aspx" />
+    <Content Include="Administrador\paramCategMayor.aspx" />
+    <Content Include="Administrador\parametrosDefault.aspx" />
+    <Content Include="Administrador\paramOportPDV.aspx" />
+    <Content Include="Administrador\paramOportunidad.aspx" />
+    <Content Include="Consultas\Administrador\conOportunidadAdm.aspx" />
+    <Content Include="Consultas\Administrador\conTHumanoAdm.aspx" />
+    <Content Include="Consultas\Administrador\MenuConsultaAdm.aspx" />
+    <Content Include="Consultas\Administrador\RadarOpAdmin.aspx" />
+    <Content Include="Consultas\Administrador\RadarThAdmin.aspx" />
+    <Content Include="Consultas\CModerador\conOportunidadMod.aspx" />
+    <Content Include="Consultas\CModerador\conTHumanoMod.aspx" />
+    <Content Include="Consultas\CModerador\MenuConsultaMod.aspx" />
+    <Content Include="Consultas\CModerador\RadarOpMod.aspx" />
+    <Content Include="Consultas\CModerador\RadarThMod.aspx" />
+    <Content Include="Consultas\ConOportunidad.aspx" />
+    <Content Include="Consultas\ConRecursos.aspx" />
+    <Content Include="Consultas\ConTHumano.aspx" />
+    <Content Include="Consultas\MenuConsulta.aspx" />
+    <Content Include="Consultas\RadarOportunidadCons.aspx" />
+    <Content Include="Consultas\RadarRecursosCons.aspx" />
+    <Content Include="Consultas\RadarTHumanoCons.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\btn.css" />
+    <Content Include="css\datepicker.css" />
+    <Content Include="css\lightbox.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Empresasbanc\EmpresaB.aspx" />
+    <Content Include="Empresasbanc\ModificarEmpresa.aspx" />
+    <Content Include="Empresasbanc\SeleccEmpresa.aspx" />
+    <Content Include="images\Actitudes-y-capacidades-emprendedoras-reveladas.png" />
+    <Content Include="images\Administrar-empresas.png" />
+    <Content Include="images\Administrar-usuarios.png" />
+    <Content Include="images\Aplicar-prueba.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\Canales.png" />
+    <Content Include="images\Cargar-archivos.png" />
+    <Content Include="images\CargarArch_boton.png" />
+    <Content Include="images\Clientes.png" />
+    <Content Include="images\Consultas.png" />
+    <Content Include="images\Cultura-de-la-innovación.png" />
+    <Content Include="images\Desarrollo-de-productos-o-servicios.png" />
+    <Content Include="images\Descargar-archivos.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\aliadosclave.png" />
+    <Content Include="images\antecedentesfinanc.png" />
+    <Content Include="images\antecFormLab.png" />
+    <Content Include="images\capBusqInf.png" />
+    <Content Include="images\construirRedes.png" />
+    <Content Include="images\claridadComunic.png" />
+    <Content Include="images\confEstrategEqui.png" />
+    <Content Include="images\Escalabilidad.png" />
+    <Content Include="images\Formalización.png" />
+    <Content Include="images\Fuente-de-financiación-futura.png" />
+    <Content Include="images\Generación-de-nuevos-conceptos.png" />
+    <Content Include="images\Gestión-del-conocimiento-y-tecnología.png" />
+    <Content Include="images\Información-económica-y-financiera-actual.png" />
+    <Content Include="images\Innovación.png" />
+    <Content Include="images\logop.png" />
+    <Content Include="images\logope.png" />
+    <Content Include="images\logoPE2.png" />
+    <Content Include="images\Línea.png" />
+    <Content Include="images\Mercado.png" />
+    <Content Include="images\Oportunidad.png" />
+    <Content Include="images\Oportunidad_boton.png" />
+    <Content Include="images\Organización-y-estructura-de-la-empresa.png" />
+    <Content Include="images\parqueE.png" />
+    <Content Include="images\footer.png" />
+    <Content Include="images\Propiedad-intelectual.png" />
+    <Content Include="images\Propuesta-de-valor.png" />
+    <Content Include="images\Proyección-económica.png" />
+    <Content Include="images\Proyección-financiera.png" />
+    <Content Include="images\Recursos.png" />
+    <Content Include="images\Recursos_boton.png" />
+    <Content Include="images\Redefinición-de-procesos-productivos.png" />
+    <Content Include="images\Relación-con-los-clientes.png" />
+    <Content Include="images\Requerimientos-de-empleo-y-perfil-de-los-recursos-humanos.png" />
+    <Content Include="images\Talento-humano.png" />
+    <Content Include="images\Tecnología.png" />
+    <Content Include="images\TH_boton.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="inicioIndex.aspx" />
+    <Content Include="js\bootstrap-datepicker.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Chart.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="js\jquery.countTo.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.quicksearch.js" />
+    <Content Include="js\jquery.waypoints.min.js" />
+    <Content Include="js\lightbox.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="js\validator.js" />
+    <Content Include="login.aspx" />
+    <Content Include="Menu.aspx" />
+    <Content Include="MenuOportunidad.aspx" />
+    <Content Include="MenuRecursos.aspx" />
+    <Content Include="MenuTHumano.aspx" />
+    <Content Include="MOMercado.aspx" />
+    <Content Include="MOpInnovacion.aspx" />
+    <Content Include="MTHConfEstraEquipo.aspx" />
+    <Content Include="OportunidadFrm\Escalabilidad.aspx" />
+    <Content Include="OportunidadFrm\InnoCultInnovacion.aspx" />
+    <Content Include="OportunidadFrm\InnoDesProdServicios.aspx" />
+    <Content Include="OportunidadFrm\InnoGeneConceptos.aspx" />
+    <Content Include="OportunidadFrm\InnoGestConoTecnologia.aspx" />
+    <Content Include="OportunidadFrm\InnoRedeProceProductivos.aspx" />
+    <Content Include="OportunidadFrm\MrCanales.aspx" />
+    <Content Include="OportunidadFrm\MrClientes.aspx" />
+    <Content Include="OportunidadFrm\MrRelaClientes.aspx" />
+    <Content Include="OportunidadFrm\PrDeValor.aspx" />
+    <Content Include="OportunidadFrm\PropIntelectual.aspx" />
+    <Content Include="OportunidadFrm\PrTecnologia.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="master\Form.Master" />
+    <Content Include="master\Admin.Master" />
+    <Content Include="master\LoginNoNav.Master" />
+    <Content Include="master\Moderador.Master" />
+    <Content Include="DBDS\BD_bcol.xsc">
+      <DependentUpon>BD_bcol.xsd</DependentUpon>
+    </Content>
+    <None Include="DBDS\BD_bcol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_bcol.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DBDS\BD_bcol.xss">
+      <DependentUpon>BD_bcol.xsd</DependentUpon>
+    </Content>
+    <Content Include="DBDS\BD_proced_almac.xsc">
+      <DependentUpon>BD_proced_almac.xsd</DependentUpon>
+    </Content>
+    <None Include="DBDS\BD_proced_almac.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_proced_almac.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DBDS\BD_proced_almac.xss">
+      <DependentUpon>BD_proced_almac.xsd</DependentUpon>
+    </Content>
+    <Content Include="master\Consulta.Master" />
+    <Content Include="master\ModConsultas.Master" />
+    <Content Include="master\ConsultasAdmin.Master" />
+    <None Include="Properties\PublishProfiles\BancolombiaScoring.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Recursos\AliClaves.aspx" />
+    <Content Include="Recursos\AntFinancieros.aspx" />
+    <Content Include="Recursos\FuenFinanFutura.aspx" />
+    <Content Include="Recursos\InfoEcoFinanActual.aspx" />
+    <Content Include="Recursos\ProyecEconomica.aspx" />
+    <Content Include="Recursos\ProyecFinanciera.aspx" />
+    <Content Include="Registro\RegistroUsr.aspx" />
+    <Content Include="THumanoFrm\AntLabEmprendedores.aspx" />
+    <Content Include="THumanoFrm\CapBusInformacionTec.aspx" />
+    <Content Include="THumanoFrm\CapRedesContacto.aspx" />
+    <Content Include="THumanoFrm\CeActiCapEmpreReveladas.aspx" />
+    <Content Include="THumanoFrm\CeOrgaEstrucEmpresa.aspx" />
+    <Content Include="THumanoFrm\CeRequeEmplePerfHumano.aspx" />
+    <Content Include="THumanoFrm\ClaComuNegocio.aspx" />
+    <Content Include="THumanoFrm\Formalizacion.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrador\adminMenu.aspx.cs">
+      <DependentUpon>adminMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\adminMenu.aspx.designer.cs">
+      <DependentUpon>adminMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\AppPrePrueba.aspx.cs">
+      <DependentUpon>AppPrePrueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\AppPrePrueba.aspx.designer.cs">
+      <DependentUpon>AppPrePrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\indexAdm.aspx.cs">
+      <DependentUpon>indexAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\indexAdm.aspx.designer.cs">
+      <DependentUpon>indexAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\menuAdminParam.aspx.cs">
+      <DependentUpon>menuAdminParam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\menuAdminParam.aspx.designer.cs">
+      <DependentUpon>menuAdminParam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\menuTimmOp.aspx.cs">
+      <DependentUpon>menuTimmOp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\menuTimmOp.aspx.designer.cs">
+      <DependentUpon>menuTimmOp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\paramCategMayor.aspx.cs">
+      <DependentUpon>paramCategMayor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\paramCategMayor.aspx.designer.cs">
+      <DependentUpon>paramCategMayor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\parametrosDefault.aspx.cs">
+      <DependentUpon>parametrosDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\parametrosDefault.aspx.designer.cs">
+      <DependentUpon>parametrosDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\paramOportPDV.aspx.cs">
+      <DependentUpon>paramOportPDV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\paramOportPDV.aspx.designer.cs">
+      <DependentUpon>paramOportPDV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\paramOportunidad.aspx.cs">
+      <DependentUpon>paramOportunidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\paramOportunidad.aspx.designer.cs">
+      <DependentUpon>paramOportunidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Administrador\conOportunidadAdm.aspx.cs">
+      <DependentUpon>conOportunidadAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\Administrador\conOportunidadAdm.aspx.designer.cs">
+      <DependentUpon>conOportunidadAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Administrador\conTHumanoAdm.aspx.cs">
+      <DependentUpon>conTHumanoAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\Administrador\conTHumanoAdm.aspx.designer.cs">
+      <DependentUpon>conTHumanoAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Administrador\MenuConsultaAdm.aspx.cs">
+      <DependentUpon>MenuConsultaAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\Administrador\MenuConsultaAdm.aspx.designer.cs">
+      <DependentUpon>MenuConsultaAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Administrador\RadarOpAdmin.aspx.cs">
+      <DependentUpon>RadarOpAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\Administrador\RadarOpAdmin.aspx.designer.cs">
+      <DependentUpon>RadarOpAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Administrador\RadarThAdmin.aspx.cs">
+      <DependentUpon>RadarThAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\Administrador\RadarThAdmin.aspx.designer.cs">
+      <DependentUpon>RadarThAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CModerador\conOportunidadMod.aspx.cs">
+      <DependentUpon>conOportunidadMod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CModerador\conOportunidadMod.aspx.designer.cs">
+      <DependentUpon>conOportunidadMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CModerador\conTHumanoMod.aspx.cs">
+      <DependentUpon>conTHumanoMod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CModerador\conTHumanoMod.aspx.designer.cs">
+      <DependentUpon>conTHumanoMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CModerador\MenuConsultaMod.aspx.cs">
+      <DependentUpon>MenuConsultaMod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CModerador\MenuConsultaMod.aspx.designer.cs">
+      <DependentUpon>MenuConsultaMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CModerador\RadarOpMod.aspx.cs">
+      <DependentUpon>RadarOpMod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CModerador\RadarOpMod.aspx.designer.cs">
+      <DependentUpon>RadarOpMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CModerador\RadarThMod.aspx.cs">
+      <DependentUpon>RadarThMod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\CModerador\RadarThMod.aspx.designer.cs">
+      <DependentUpon>RadarThMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConOportunidad.aspx.cs">
+      <DependentUpon>ConOportunidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConOportunidad.aspx.designer.cs">
+      <DependentUpon>ConOportunidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConRecursos.aspx.cs">
+      <DependentUpon>ConRecursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConRecursos.aspx.designer.cs">
+      <DependentUpon>ConRecursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConTHumano.aspx.cs">
+      <DependentUpon>ConTHumano.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\ConTHumano.aspx.designer.cs">
+      <DependentUpon>ConTHumano.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\MenuConsulta.aspx.cs">
+      <DependentUpon>MenuConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\MenuConsulta.aspx.designer.cs">
+      <DependentUpon>MenuConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\RadarOportunidadCons.aspx.cs">
+      <DependentUpon>RadarOportunidadCons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\RadarOportunidadCons.aspx.designer.cs">
+      <DependentUpon>RadarOportunidadCons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\RadarRecursosCons.aspx.cs">
+      <DependentUpon>RadarRecursosCons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\RadarRecursosCons.aspx.designer.cs">
+      <DependentUpon>RadarRecursosCons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\RadarTHumanoCons.aspx.cs">
+      <DependentUpon>RadarTHumanoCons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\RadarTHumanoCons.aspx.designer.cs">
+      <DependentUpon>RadarTHumanoCons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBDS\BD_bcol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_bcol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBDS\BD_proced_almac.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_proced_almac.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Empresasbanc\ModificarEmpresa.aspx.cs">
+      <DependentUpon>ModificarEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empresasbanc\ModificarEmpresa.aspx.designer.cs">
+      <DependentUpon>ModificarEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empresasbanc\SeleccEmpresa.aspx.cs">
+      <DependentUpon>SeleccEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empresasbanc\SeleccEmpresa.aspx.designer.cs">
+      <DependentUpon>SeleccEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inicioIndex.aspx.cs">
+      <DependentUpon>inicioIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inicioIndex.aspx.designer.cs">
+      <DependentUpon>inicioIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Empresasbanc\EmpresaB.aspx.cs">
+      <DependentUpon>EmpresaB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empresasbanc\EmpresaB.aspx.designer.cs">
+      <DependentUpon>EmpresaB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master\Consulta.Master.cs">
+      <DependentUpon>Consulta.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\Consulta.Master.designer.cs">
+      <DependentUpon>Consulta.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\ConsultasAdmin.Master.cs">
+      <DependentUpon>ConsultasAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\ConsultasAdmin.Master.designer.cs">
+      <DependentUpon>ConsultasAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\Form.Master.cs">
+      <DependentUpon>Form.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\Form.Master.designer.cs">
+      <DependentUpon>Form.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\LoginNoNav.Master.cs">
+      <DependentUpon>LoginNoNav.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\LoginNoNav.Master.designer.cs">
+      <DependentUpon>LoginNoNav.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\ModConsultas.Master.cs">
+      <DependentUpon>ModConsultas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\ModConsultas.Master.designer.cs">
+      <DependentUpon>ModConsultas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\Moderador.Master.cs">
+      <DependentUpon>Moderador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\Moderador.Master.designer.cs">
+      <DependentUpon>Moderador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuOportunidad.aspx.cs">
+      <DependentUpon>MenuOportunidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuOportunidad.aspx.designer.cs">
+      <DependentUpon>MenuOportunidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuRecursos.aspx.cs">
+      <DependentUpon>MenuRecursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuRecursos.aspx.designer.cs">
+      <DependentUpon>MenuRecursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTHumano.aspx.cs">
+      <DependentUpon>MenuTHumano.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuTHumano.aspx.designer.cs">
+      <DependentUpon>MenuTHumano.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MOMercado.aspx.cs">
+      <DependentUpon>MOMercado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MOMercado.aspx.designer.cs">
+      <DependentUpon>MOMercado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MOpInnovacion.aspx.cs">
+      <DependentUpon>MOpInnovacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MOpInnovacion.aspx.designer.cs">
+      <DependentUpon>MOpInnovacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MTHConfEstraEquipo.aspx.cs">
+      <DependentUpon>MTHConfEstraEquipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MTHConfEstraEquipo.aspx.designer.cs">
+      <DependentUpon>MTHConfEstraEquipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\Escalabilidad.aspx.cs">
+      <DependentUpon>Escalabilidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\Escalabilidad.aspx.designer.cs">
+      <DependentUpon>Escalabilidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoCultInnovacion.aspx.cs">
+      <DependentUpon>InnoCultInnovacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoCultInnovacion.aspx.designer.cs">
+      <DependentUpon>InnoCultInnovacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoDesProdServicios.aspx.cs">
+      <DependentUpon>InnoDesProdServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoDesProdServicios.aspx.designer.cs">
+      <DependentUpon>InnoDesProdServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoGeneConceptos.aspx.cs">
+      <DependentUpon>InnoGeneConceptos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoGeneConceptos.aspx.designer.cs">
+      <DependentUpon>InnoGeneConceptos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoGestConoTecnologia.aspx.cs">
+      <DependentUpon>InnoGestConoTecnologia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoGestConoTecnologia.aspx.designer.cs">
+      <DependentUpon>InnoGestConoTecnologia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoRedeProceProductivos.aspx.cs">
+      <DependentUpon>InnoRedeProceProductivos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\InnoRedeProceProductivos.aspx.designer.cs">
+      <DependentUpon>InnoRedeProceProductivos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\MrCanales.aspx.cs">
+      <DependentUpon>MrCanales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\MrCanales.aspx.designer.cs">
+      <DependentUpon>MrCanales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\MrClientes.aspx.cs">
+      <DependentUpon>MrClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\MrClientes.aspx.designer.cs">
+      <DependentUpon>MrClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\MrRelaClientes.aspx.cs">
+      <DependentUpon>MrRelaClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\MrRelaClientes.aspx.designer.cs">
+      <DependentUpon>MrRelaClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\PrDeValor.aspx.cs">
+      <DependentUpon>PrDeValor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\PrDeValor.aspx.designer.cs">
+      <DependentUpon>PrDeValor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\PropIntelectual.aspx.cs">
+      <DependentUpon>PropIntelectual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\PropIntelectual.aspx.designer.cs">
+      <DependentUpon>PropIntelectual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OportunidadFrm\PrTecnologia.aspx.cs">
+      <DependentUpon>PrTecnologia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OportunidadFrm\PrTecnologia.aspx.designer.cs">
+      <DependentUpon>PrTecnologia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursos\AliClaves.aspx.cs">
+      <DependentUpon>AliClaves.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\AliClaves.aspx.designer.cs">
+      <DependentUpon>AliClaves.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\AntFinancieros.aspx.cs">
+      <DependentUpon>AntFinancieros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\AntFinancieros.aspx.designer.cs">
+      <DependentUpon>AntFinancieros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\FuenFinanFutura.aspx.cs">
+      <DependentUpon>FuenFinanFutura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\FuenFinanFutura.aspx.designer.cs">
+      <DependentUpon>FuenFinanFutura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\InfoEcoFinanActual.aspx.cs">
+      <DependentUpon>InfoEcoFinanActual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\InfoEcoFinanActual.aspx.designer.cs">
+      <DependentUpon>InfoEcoFinanActual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ProyecEconomica.aspx.cs">
+      <DependentUpon>ProyecEconomica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ProyecEconomica.aspx.designer.cs">
+      <DependentUpon>ProyecEconomica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\ProyecFinanciera.aspx.cs">
+      <DependentUpon>ProyecFinanciera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\ProyecFinanciera.aspx.designer.cs">
+      <DependentUpon>ProyecFinanciera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro\RegistroUsr.aspx.cs">
+      <DependentUpon>RegistroUsr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro\RegistroUsr.aspx.designer.cs">
+      <DependentUpon>RegistroUsr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\AntLabEmprendedores.aspx.cs">
+      <DependentUpon>AntLabEmprendedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\AntLabEmprendedores.aspx.designer.cs">
+      <DependentUpon>AntLabEmprendedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\CapBusInformacionTec.aspx.cs">
+      <DependentUpon>CapBusInformacionTec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\CapBusInformacionTec.aspx.designer.cs">
+      <DependentUpon>CapBusInformacionTec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\CapRedesContacto.aspx.cs">
+      <DependentUpon>CapRedesContacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\CapRedesContacto.aspx.designer.cs">
+      <DependentUpon>CapRedesContacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\CeActiCapEmpreReveladas.aspx.cs">
+      <DependentUpon>CeActiCapEmpreReveladas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\CeActiCapEmpreReveladas.aspx.designer.cs">
+      <DependentUpon>CeActiCapEmpreReveladas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\CeOrgaEstrucEmpresa.aspx.cs">
+      <DependentUpon>CeOrgaEstrucEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\CeOrgaEstrucEmpresa.aspx.designer.cs">
+      <DependentUpon>CeOrgaEstrucEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\CeRequeEmplePerfHumano.aspx.cs">
+      <DependentUpon>CeRequeEmplePerfHumano.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\CeRequeEmplePerfHumano.aspx.designer.cs">
+      <DependentUpon>CeRequeEmplePerfHumano.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\ClaComuNegocio.aspx.cs">
+      <DependentUpon>ClaComuNegocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\ClaComuNegocio.aspx.designer.cs">
+      <DependentUpon>ClaComuNegocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="THumanoFrm\Formalizacion.aspx.cs">
+      <DependentUpon>Formalizacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="THumanoFrm\Formalizacion.aspx.designer.cs">
+      <DependentUpon>Formalizacion.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CEntidades\CEntidades.csproj">
+      <Project>{3a6a69dd-a63e-4162-9199-b708a82af4e0}</Project>
+      <Name>CEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CReglas\CReglas.csproj">
+      <Project>{3093e5ee-8fe9-4870-9ec6-250d54b82906}</Project>
+      <Name>CReglas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>30290</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:30290/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
